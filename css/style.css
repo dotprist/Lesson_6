@@ -1,0 +1,167 @@
+/* &display=swap&subset=cyrillic-ext (вставить в плагин) для удаленного подключения*/
+
+@import url("https://fonts.googleapis.com/css?family=Nunito:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('../fonts/SFUIText-Regular.woff2') format('woff2'),
+		url('../fonts/SFUIText-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('../fonts/SFUIText-Bold.woff2') format('woff2'),
+		url('../fonts/SFUIText-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 16px;
+	/* по умолчанию */
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+	line-height: 1;
+
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+
+/* --------------- */
+
+.block {
+	background-color: blue;
+	width: 200px;
+	height: 200px;
+	padding: 15px;
+	margin: 0px 0px 70px 0px;
+		border: 10px solid #000;
+	
+	font-size: 20px;
+	
+	overflow: hidden;
+		
+				opacity: 0.8;
+	
+}
+
+.line {
+	background-color: crimson;
+	outline: 1px solid #000;
+	
+}
+h2 {
+	color: darkgoldenrod;
+	font-size: 20px;
+	text-align: center;
+}
+.krug {
+	width: 200px;
+	height: 200px;
+	padding: 15px;
+	background-color: darkviolet;
+	border-radius: 50%;
+	margin: 0px 0px 0px 500px;
+	display: inline-block;
+}
+.pusto{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	border-radius: 50%;
+	display: inline-block;
+}
+.paragraph {
+	font-size: 20px;
+	font-family: 'SF UI Text';
+height: 200px;
+width: 250px;
+background-color: aqua;
+opacity: 0.5;
+overflow: auto;
+}
+.span{
+	text-align: center;
+}
+.pizdobol{
+	color: red;
+	font-family: "SF UI Text";
+	border-bottom: 3px solid black;
+	display: inline-block;
+	
+}
+.graniza{
+	width: 200px;
+		height: 200px;
+		background-color: blue;
+		margin: 00px 00px 00px 500px;
+		display: inline-block;
+		border-left: 3px solid black;
+		border-bottom: 5px double rgb(155, 10, 10);
+		border-right: 7px dotted rgb(245, 243, 247);
+		border-top: 10px dashed rgb(28, 184, 14);
+}
+.link{
+	text-align: center;
+}
+.link1{
+	font-size: 25px;
+	border-bottom: 2px solid rgb(8, 3, 78);
+	color: blue;
+	box-shadow: 5px 5px 20px 10px red;
+	display: inline-block;
+	margin: 20px 0px 20px 00px;
+
+}
